@@ -40,7 +40,7 @@ cd tasty-bytes-cortex-analyst
 git init && git add . && git commit -m "Initial commit"
 
 # 3. Push to GitHub (create repo first at github.com/new)
-git remote add origin https://github.com/aamanlamba/tasty-bytes-cortex-analyst.git
+git remote add origin https://github.com/aamanlamba/tasty-bytes-cortex-analyst
 git push -u origin main
 
 # 4. Deploy Agent to Snowflake (via Snowsight)
