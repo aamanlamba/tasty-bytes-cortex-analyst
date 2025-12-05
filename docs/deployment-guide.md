@@ -105,6 +105,7 @@ Upload these files from the `huggingface/` directory:
 3. **requirements.txt** (Python dependencies)
 
 **Upload method:**
+
 - Click **Files** tab
 - Click **Add file** → **Upload files**
 - Drag and drop the 3 files
@@ -159,11 +160,13 @@ git push
 ```
 
 Then update `app.py` to reference the video:
+
 ```python
 gr.Video("demo-video.mp4", label="Watch the Demo")
 ```
 
 For larger videos, host on YouTube and embed:
+
 ```python
 gr.HTML('<iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>')
 ```
@@ -195,6 +198,7 @@ Make sure the Space README includes GitHub link:
 ### GitHub
 
 1. **Add Topics/Tags**
+
    - snowflake
    - cortex-analyst
    - natural-language-processing
@@ -202,15 +206,16 @@ Make sure the Space README includes GitHub link:
    - semantic-layer
    - data-analytics
    - ai-powered
-
 2. **Create Release**
+
    ```bash
    git tag -a v1.0.0 -m "Initial release"
    git push origin v1.0.0
    ```
-   Then create release on GitHub with release notes
 
+   Then create release on GitHub with release notes
 3. **Add GitHub Actions** (optional)
+
    - Automated testing
    - Link checking
    - Documentation building
@@ -218,14 +223,15 @@ Make sure the Space README includes GitHub link:
 ### HuggingFace
 
 1. **Add More Datasets**
+
    - Sample CSV exports
    - Query result examples
-
 2. **Enable Community Features**
+
    - Enable discussions
    - Add community tab
-
 3. **Add to Collection**
+
    - Create a collection of data analytics tools
    - Add your Space to it
 
@@ -236,6 +242,7 @@ Make sure the Space README includes GitHub link:
 ### Social Media
 
 **LinkedIn Post Template:**
+
 ```
 🚀 Excited to share my latest project: Tasty Bytes Customer Analytics!
 
@@ -247,8 +254,8 @@ Built with Snowflake Cortex Analyst, this demonstrates how to create a natural l
 • Business-friendly semantic layer
 • Production-ready in 30 minutes
 
-🔗 Try the demo: [HuggingFace Space URL]
-📦 Full code on GitHub: [GitHub URL]
+🔗 Try the demo: https://huggingface.co/spaces/aamanlamba/TastyBytesCortexAnalyst
+📦 Full code on GitHub: https://github.com/aamanlamba/tasty-bytes-cortex-analyst
 
 Perfect for anyone interested in #DataAnalytics #AI #Snowflake #LLM
 
@@ -258,6 +265,7 @@ What data would you want to query with natural language? 💭
 ```
 
 **Twitter/X Post:**
+
 ```
 🍔 New project: Natural language customer analytics with @SnowflakeDB Cortex Analyst
 
@@ -272,19 +280,20 @@ Ask "Which countries have the most customers?" and get instant insights - no SQL
 ### Community Sharing
 
 1. **Snowflake Community**
+
    - Post in Community Forums
    - Share in relevant LinkedIn groups
-
 2. **HuggingFace**
+
    - Share in HuggingFace Discord
    - Post in relevant ML communities
-
 3. **Reddit**
+
    - r/snowflake
    - r/datascience
    - r/MachineLearning
-
 4. **Dev.to / Medium**
+
    - Write a detailed tutorial
    - Link to your repositories
 
@@ -295,16 +304,17 @@ Ask "Which countries have the most customers?" and get instant insights - no SQL
 ### Regular Updates
 
 1. **Keep dependencies updated**
+
    ```bash
    pip list --outdated
    # Update requirements.txt
    ```
-
 2. **Monitor issues**
+
    - Respond to GitHub issues
    - Update documentation based on questions
-
 3. **Add new features**
+
    - More example queries
    - Additional semantic views
    - Enhanced visualizations
@@ -312,6 +322,7 @@ Ask "Which countries have the most customers?" and get instant insights - no SQL
 ### Analytics
 
 Track engagement:
+
 - GitHub stars and forks
 - HuggingFace Space views
 - Social media engagement
@@ -324,10 +335,12 @@ Track engagement:
 ### GitHub Issues
 
 **Large files rejected:**
+
 - Use Git LFS for files >100MB
 - Or host videos externally (YouTube, Vimeo)
 
 **Push rejected:**
+
 ```bash
 git pull --rebase origin main
 git push
@@ -336,11 +349,13 @@ git push
 ### HuggingFace Issues
 
 **Build failing:**
+
 - Check logs tab
 - Verify requirements.txt
 - Test locally first: `python app.py`
 
 **Space not updating:**
+
 - Hard refresh your browser
 - Clear Space cache in settings
 - Rebuild the Space

@@ -39,7 +39,7 @@ This HuggingFace Space is a **demonstration and showcase** only. The actual Cort
 
 To try the real thing:
 1. Get a Snowflake account (free trial available)
-2. Follow the setup instructions in the [GitHub repository](https://github.com/yourusername/tasty-bytes-cortex-analyst)
+2. Follow the setup instructions in the [GitHub repository](https://github.com/aamanlamba/tasty-bytes-cortex-analyst)
 3. Complete setup in 20-30 minutes
 
 ## 📚 What You'll Find Here
@@ -52,7 +52,7 @@ To try the real thing:
 
 ## 🚀 Try It Yourself
 
-**GitHub Repository**: [tasty-bytes-cortex-analyst](https://github.com/yourusername/tasty-bytes-cortex-analyst)
+**GitHub Repository**: [tasty-bytes-cortex-analyst](https://github.com/aamanlamba/tasty-bytes-cortex-analyst)
 
 The repository includes:
 - Complete setup scripts

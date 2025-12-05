@@ -3,7 +3,7 @@
 A natural language interface for analyzing Tasty Bytes customer loyalty metrics using Snowflake Cortex Analyst. Query customer data, sales patterns, and geographic insights without writing SQL.
 
 [![Demo Video](https://img.shields.io/badge/Demo-Watch%20Video-blue)](demo/demo-video.mp4)
-[![HuggingFace](https://img.shields.io/badge/🤗-HuggingFace%20Space-yellow)](https://huggingface.co/spaces/yourusername/tasty-bytes-cortex-analyst)
+[![HuggingFace](https://img.shields.io/badge/🤗-HuggingFace%20Space-yellow)](https://huggingface.co/spaces/aamanlamba/TastyBytesCortexAnalyst)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ## 🎯 Overview
