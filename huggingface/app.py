@@ -215,7 +215,7 @@ def create_demo():
             
             ### Step 1: Clone the Repository
             ```bash
-            git clone https://github.com/yourusername/tasty-bytes-cortex-analyst.git
+            git clone https://github.com/aamanlamba/tasty-bytes-cortex-analyst.git
             cd tasty-bytes-cortex-analyst
             ```
             
