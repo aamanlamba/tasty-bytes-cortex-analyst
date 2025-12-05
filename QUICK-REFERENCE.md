@@ -38,7 +38,7 @@ cd tasty-bytes-cortex-analyst
 
 # 2. Initialize git
 git init && git add . && git commit -m "Initial commit"
-
+git branch -M main
 # 3. Push to GitHub (create repo first at github.com/new)
 git remote add origin https://github.com/aamanlamba/tasty-bytes-cortex-analyst
 git push -u origin main
